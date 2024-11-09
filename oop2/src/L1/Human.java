@@ -1,6 +1,6 @@
 package L1;
 
-public abstract class Human {
+public abstract class Human implements Courses {
     private final String surname;
     private final String name;
 

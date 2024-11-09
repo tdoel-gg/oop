@@ -11,4 +11,8 @@ public class Student extends Human {
     public String info(){
         return super.info() + ", " + group.getGroup() + "." + group.getSubgroup();
     }
+    @Override
+    public void people() {
+        System.out.println("Студент: " + info());
+    }
 }

@@ -14,4 +14,8 @@ public class Teacher extends Human {
     public String info(){
         return super.info() + ", " + group.getGroup() + "." + group.getSubgroup() + ", " + language;
     }
+    @Override
+    public void people() {
+        System.out.println("Преподователь: " + info());
+    }
 }
